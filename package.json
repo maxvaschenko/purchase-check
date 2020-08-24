@@ -4,14 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress": "cypress open"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
-  "devDependencies": {
-    "cypress": "^5.0.0"
-  },
   "dependencies": {
     "node-telegram-bot-api": "^0.50.0",
     "puppeteer": "^5.2.1",

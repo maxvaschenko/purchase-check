@@ -6,6 +6,8 @@ const bot = new TelegramBot(token, {polling: true});
 const checkTable = async () => {
     const browser = await puppeteer.launch({
         headless: false,
+        executablePath: '/usr/bin/chromium-browser',
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
     const page = await browser.newPage();
     const buttonSelector = '[data-product-id=S59324818] > .range-revamp-product__buy-module-container > .range-revamp-product__buy-module-content > .range-revamp-buy-module > .range-revamp-buy-module__buttons > .range-revamp-btn'
@@ -15,7 +17,7 @@ const checkTable = async () => {
     await page.waitForSelector(buttonSelector, {visible: true, timeout: 30000})
     await page.waitFor(1000)
     await page.click(buttonSelector)
-    await page.waitFor(1000)
+    await page.waitFor(5000)
     await page.click(linkSelector)
     await page.waitFor(1000)
     await page.click('#checkoutButtonTop')
