@@ -13,7 +13,7 @@ const checkTable = async () => {
 
     await page.goto('https://www.ikea.com/ua/uk/p/skarsta-skarsta-stil-regulovaniy-biliy-s59324818/');
     await page.waitForSelector(buttonSelector, {visible: true, timeout: 30000})
-    await page.waitFor(500)
+    await page.waitFor(1000)
     await page.click(buttonSelector)
     await page.waitFor(1000)
     await page.click(linkSelector)

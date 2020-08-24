@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba648511-5042-4da5-9096-64c68abc3861" name="Default Changelist" comment="" />
+    <list default="true" id="ba648511-5042-4da5-9096-64c68abc3861" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +17,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1gPB9UzStIAgNLaRU1MhUtNz8FZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,6 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -32,6 +40,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ba648511-5042-4da5-9096-64c68abc3861" name="Default Changelist" comment="" />
@@ -42,10 +53,47 @@
       <workItem from="1598006196783" duration="422000" />
       <workItem from="1598006631977" duration="4327000" />
       <workItem from="1598026649453" duration="611000" />
+      <workItem from="1598237368679" duration="513000" />
+      <workItem from="1598250243375" duration="10000" />
+      <workItem from="1598280290063" duration="78000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1598237627677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598237627677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2481" y="129" width="788" height="814" key="CommitChangelistDialog2" timestamp="1598237627579">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2481" y="129" width="788" height="814" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598237627579" />
+    <state x="2663" y="283" width="424" height="506" key="FileChooserDialogImpl" timestamp="1598237569616">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="283" width="424" height="506" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598237569616" />
+    <state x="2475" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2" timestamp="1598237629997">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2475" y="275" width="800" height="523" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598237629997" />
+    <state x="2684" y="451" width="381" height="171" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1598237580220">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2684" y="451" width="381" height="171" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598237580220" />
+    <state x="2713" y="333" width="324" height="407" key="svn.repositoryBrowser" timestamp="1598237556857">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2713" y="333" width="324" height="407" key="svn.repositoryBrowser/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1598237556857" />
   </component>
 </project>
