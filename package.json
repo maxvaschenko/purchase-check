@@ -1,0 +1,22 @@
+{
+  "name": "cypress-ikea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^5.0.0"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.50.0",
+    "puppeteer": "^5.2.1",
+    "simple-telegram-message": "^1.4.1",
+    "telegram-bot-api": "^2.0.1",
+    "telegram-send-message": "0.0.4"
+  }
+}
